@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Document</title>
+
+	<!-- Existen 7 tipos de botones 
+		 default,info,primary,succes,warning,danger,link
+		 con 4 distintos tamaños xsm (Extra Small), sm(Small),md(medium),lg(Large) 
+
+		 Algunas clases interesantes son:
+		 	-btn-block [ocupa todo el espacio de la columna donde este]
+			-active [agrega el tan famoso efecto active a los botones]
+			-disabled [agrega el efecto que inhabilita el boton]
+
+
+		Nostros podemos tener 3 maneras de declarar un boton:
+
+			-Button Tag
+			-Anchor Tag
+			-Input Type=Button
+	-->
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<h2>Botones Small</h2>
+				<button class="btn btn-sm btn-default">Default</button>
+				<button class="btn btn-sm btn-primary">Primary</button>
+				<button class="btn btn-sm btn-success">Succes</button>
+				<button class="btn btn-sm btn-info">Info</button>
+				<button class="btn btn-sm btn-warning">Warning</button>
+				<button class="btn btn-sm btn-danger">Danger</button>
+				<button class="btn btn-sm btn-link">Link</button>
+			</div>
+
+			<div class="col-md-3">
+				<h2>Botones Medium</h2>
+				<a href="#" class="btn btn-md btn-default">Default</a>
+				<a href="#" class="btn btn-md btn-primary">Primary</a>
+				<a href="#" class="btn btn-md btn-success">Succes</a>
+				<a href="#" class="btn btn-md btn-info">Info</a>
+				<a href="#" class="btn btn-md btn-warning">Warning</a>
+				<a href="#" class="btn btn-md btn-danger">Danger</a>
+				<a href="#" class="btn btn-md btn-link">Link</a>
+			</div>
+
+			<div class="col-md-3">
+				<h2>Botones Large</h2>
+				<a href="#" class="btn btn-lg btn-default">Default</a>
+				<a href="#" class="btn btn-lg btn-primary">Primary</a>
+				<a href="#" class="btn btn-lg btn-success">Succes</a>
+				<a href="#" class="btn btn-lg btn-info">Info</a>
+				<a href="#" class="btn btn-lg btn-warning">Warning</a>
+				<a href="#" class="btn btn-lg btn-danger">Danger</a>
+				<a href="#" class="btn btn-lg btn-link">Link</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<h2>Botones block </h2>
+				<button class="btn btn-block btn-default">Default</button>
+				<button class="btn btn-block btn-primary">Primary</button>
+				<button class="btn btn-block btn-success">Succes</button>
+				<button class="btn btn-block btn-info">Info</button>
+				<button class="btn btn-block btn-warning">Warning</button>
+				<button class="btn btn-block btn-danger">Danger</button>
+				<button class="btn btn-block btn-link">Link</button>
+			</div>
+
+			<div class="col-md-3">
+				<h2>Botones efecto active</h2>
+				<a href="#" class="btn btn-block active btn-default">Default</a>
+				<a href="#" class="btn btn-block active btn-primary">Primary</a>
+				<a href="#" class="btn btn-block active btn-success">Succes</a>
+				<a href="#" class="btn btn-block active btn-info">Info</a>
+				<a href="#" class="btn btn-block active btn-warning">Warning</a>
+				<a href="#" class="btn btn-block active btn-danger">Danger</a>
+				<a href="#" class="btn btn-block active btn-link">Link</a>
+			</div>
+
+			<div class="col-md-3">
+				<h3>Botones efecto disabled</h3>
+				<a href="#" class="btn btn-block btn-default" disabled >Default</a>
+				<a href="#" class="btn btn-block btn-primary" disabled >Primary</a>
+				<a href="#" class="btn btn-block btn-success" disabled >Succes</a>
+				<a href="#" class="btn btn-block btn-info" disabled >Info</a>
+				<a href="#" class="btn btn-block btn-warning" disabled >Warning</a>
+				<a href="#" class="btn btn-block btn-danger" disabled >Danger</a>
+				<a href="#" class="btn btn-block btn-link" disabled >Link</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
