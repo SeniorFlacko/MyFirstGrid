@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Document</title>
+
+	<!-- 
+
+		An addon is like an icon:
+		We need a span implementing input-group-addon or input-group-btn
+		but first
+		For making input-groups we need: 
+		form-group
+		and as a child 
+		input-group
+		so we can stick a caracter to an input
+		in resume
+
+		.form-group>.input-group>span.input-group-addon
+	-->
+</head>
+<body>
+	<div class="container-fluid">
+		<br>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="form-group">
+					 <div class="input-group">
+					 	<span class="input-group-addon">Correo:</span>
+						<input type="email" class="form-control" placeholder="">
+					 </div>
+				</div>
+
+
+				<div class="form-group">
+					 <div class="input-group">
+					 	<span class="input-group-addon">$</span>
+						<input type="email" class="form-control" placeholder="">
+						<span class="input-group-addon">.00</span>
+					 </div>
+				</div>
+
+
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="checkbox">
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+
+
+
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio" name="radio1">
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio" name="radio1">
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+
+
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+						<button class="btn btn-primary">Boton</button>
+						</span>	
+					</div>
+				</div>
+
+
+
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownmenu1">
+						Boton <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+						<li><a href="#">Item #1</a></li>
+						<li><a href="#">Item #2</a></li>
+						<li><a href="#">Item #3</a></li>
+						<li><a href="#">Item #4</a></li>
+					</ul>
+				</span>	
+				<input type="text" class="form-control">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownmenu1">
+						Boton <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+						<li><a href="#">Item #1</a></li>
+						<li><a href="#">Item #2</a></li>
+						<li><a href="#">Item #3</a></li>
+						<li><a href="#">Item #4</a></li>
+					</ul>
+				</span>	
+				<input type="text" class="form-control">
+			</div>
+		</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

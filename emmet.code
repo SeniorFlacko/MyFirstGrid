@@ -1,0 +1,11 @@
+Emmet:
+
+Ctrl+Shift+g --> Wrap tag in another tag
+li*4>a[href="#"]{Item#$}
+.container
+.container-fluid
+.form-group>.input-group>span.input-group-addon
+ul.nav.nav-tabs 
+.container>header>nav
+h$*6
+h$*6>{Header $}

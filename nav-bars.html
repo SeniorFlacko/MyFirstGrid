@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Document</title>
+	<!-- 
+		Make 
+		.container>header>nav>container-fluid
+		.navbar-header
+	-->
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-default navbar-inverse">
+				<div class="container-fluid">
+					<!-- NAVBAR HEADER-->
+					<div class="navbar-header">
+						<!-- Boton para mobiles-->
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#navbar1">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<!-- Brand Name -->
+						<a href="#" class="navbar-brand">JCAF</a>
+					</div>
+					<!-- CONTENT OF NAVBAR-->
+					
+					<div class="collapse navbar-collapse" id="navbar1">
+
+						<!-- UL with elements of the Navbar-->
+						<ul class="nav navbar-nav ">
+							<li><a href="#">Item #1</a></li>
+							<li class="active"><a href="#">Item #2</a></li>
+							<!-- Dropdown element-->
+							<li class="dropdown">
+								<!-- Dropdown tag -->
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span>
+								</a>
+								<!-- Dropdown displayed list -->
+								<ul class="dropdown-menu">
+									<li><a href="#">Item #1</a></li>
+									<li><a href="#">Item #2</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Item #4</a></li>
+								</ul>
+							</li>
+							<!-- Form Busqueda-->
+							<form action="" class="navbar-form navbar-left">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Buscar">
+									<button class="btn btn-primary">Buscar</button>
+								</div>
+							</form>
+							
+						</ul>	
+					</div>
+				</div>
+			</nav>
+		</header>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
