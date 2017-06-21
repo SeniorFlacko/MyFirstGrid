@@ -172,3 +172,64 @@ Our sample of RESPONSIVE images:
  <img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_112_zps7dveffum.png">
  
  
+<h2>Using ICONS on Bootstrap</h2>
+We can use icons in different components like a button,paragraph,headers etc.
+--->For using an icon we need to make an span element inside the tag we want
+and the span need to have a class with the name of that icon:
+
+<pre>span class="glyphicon glyphicon-asterisk"</pre>
+<strong>span</strong> is a child of an header tag in the next example:
+
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_115_zpsfpceppff.png">
+
+
+<h2>Dropdown Buttons</h2>
+
+Making dropdown button is interesting because it will use javascript fucntionality behind the scenes
+	<ul>
+		<li>for making a dropdown menu we need:</li>
+		<li>1.- Wrap a trigger[button] and a list menu in a div with .dropdown</li>
+		<li>2.- To say that a button is a dropdown button we add .dropdown-toggle</li>
+		<li>3.- To say a menu is a dropdown-menu we add .dropdown-menu</li>
+		<li>4.- To link button + menu we add an id to a button then in menu we point to that id</li>
+	</ul>
+We use a special icon called caret, in our menu we can have:
+.dropdown-header wich is a header and also a .divider wich is a divider and 
+also we can add .disabled class to an element li of our ul a.k.a menu
+
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_116_zpsggckstyt.png">
+ 
+ <h2>Input Groups</h2>
+ We have already make an input-group in forms but this are some other examples about it:
+So we say:
+
+	An addon is like an icon:
+	We need a span implementing input-group-addon or input-group-btn
+	but first
+	For making input-groups we need: 
+	form-group
+	and as a child 
+	input-group
+	so we can stick a caracter to an input
+	in resume
+
+	.form-group : .input-group : span.input-group-addon
+
+	
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_117_zpsz0ca6wx2.png">
+
+<h2>Nav Tab and Nav Pills</h2>
+
+First of all for making our first navbar we need to know what are nav tabs and nav pills:
+so:
+
+For desmystifying nav tabs and nav pills we need to say that are just unordered list a.k.a <strong>ul</strong>
+implementing class="nav nav-tab" or class="nav nav-pills" respectively
+
+But we can make those navs stacked, or justified, and also they can have a dropdown.
+<h6>Nav tabs and Nav Pills are just simplified versions of Navbars</h6>
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_118_zpsqxsnh06y.png">
+	
+
+
+
