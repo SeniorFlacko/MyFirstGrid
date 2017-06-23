@@ -7,63 +7,77 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<title>Document</title>
 	<!-- 
-		Make 
-		.container>header>nav>container-fluid
-		.navbar-header
+		Essential idea about navabars is that a navbar is a unordered list
+		so
+		Make an ul with anchors as li
+		Add ul .nav navbar-nav
+		Wrap that ul in a nav with class navbar navbar-default
+		make a div with class navbar-header
+		inside of div.navbar-header put toggle button and brand name
+		
+
+		Wrap ul in a .collapse navbar-collapse and add id="{id on toggle button}"
+
+		and..
+		if you need a form you need to tell that will be inline so wrap that form in .navbar-form
+		if you need a button put .navbar-btn
+		if you need text put .navbar-text
+
+		If you need aligments put navbar-left or .navbar-right in a separate ul
+
+		You can use .navbar-fixed-top or navbar-static-top,
+		but first make content of the nav inside a container or container-fluid
+
+		:D
+
 	-->
 </head>
-<body>
-	<div class="container">
-		<header>
-			<nav class="navbar navbar-default navbar-inverse">
-				<div class="container-fluid">
-					<!-- NAVBAR HEADER-->
-					<div class="navbar-header">
-						<!-- Boton para mobiles-->
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#navbar1">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-						<!-- Brand Name -->
-						<a href="#" class="navbar-brand">JCAF</a>
-					</div>
-					<!-- CONTENT OF NAVBAR-->
-					
-					<div class="collapse navbar-collapse" id="navbar1">
-
-						<!-- UL with elements of the Navbar-->
-						<ul class="nav navbar-nav ">
-							<li><a href="#">Item #1</a></li>
-							<li class="active"><a href="#">Item #2</a></li>
-							<!-- Dropdown element-->
-							<li class="dropdown">
-								<!-- Dropdown tag -->
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span>
-								</a>
-								<!-- Dropdown displayed list -->
-								<ul class="dropdown-menu">
-									<li><a href="#">Item #1</a></li>
-									<li><a href="#">Item #2</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Item #4</a></li>
-								</ul>
-							</li>
-							<!-- Form Busqueda-->
-							<form action="" class="navbar-form navbar-left">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Buscar">
-									<button class="btn btn-primary">Buscar</button>
-								</div>
-							</form>
-							
-						</ul>	
-					</div>
+<body>	
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">MiPagina</a>
 				</div>
-			</nav>
-		</header>
-	</div>
+				<div class="collapse navbar-collapse" id="navbar1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Item 1</a></li>
+						<li><a href="#">Item 2</a></li>
+						<li><a href="#">Item 3</a></li>
+						<li><a href="#">Item 4</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">Header</li>
+								<li><a href="#">Item 6</a></li>
+								<li><a href="#">Item 7</a></li>
+								<li><a href="#">Item 8</a></li>
+								<li><a href="#">Item 9</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+
+					<ul class="nav navbar-nav navbar-right">
+						<button class="btn btn-default navbar-btn">Sign In</button>
+						<button class="btn btn-default navbar-btn">Log In</button>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
