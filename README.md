@@ -285,4 +285,83 @@ For notifications features we have badges
 <h6>It kinds remember me my first CV Thats why I love it!! :D</h6>
 <img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_127_zpselvown5o.png">
 
+<h2>Thumbnails</h2>
+
+An image that adapt to size of columns , adjusts size of an image
+Wrap an image in a div or an anchor with class="thumbnail"
+If you want to capture information use class="caption"
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_129_zpsfsrkmifz.png">
+
+<h2>Alerts</h2>
+Alerts are panels with a info of something that user has done
+Use class="alert alert-success" on a div if you wanna close that you use a button with a classs="close"
+and a data-dismiss="alert" attr and text put caracter times for the cross
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_130_zpsjpbpvtzt.png"> 
+
+<h2>Progress</h2>
+We use a progressbar to track a process by a percentage 
+And for that we make a div with .progress
+and also insdide another div with .progress-bar 
+inside that div the value of percentage of that process running 
+we can also use .progress-bar-success .progress-bar-striped active 
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_131_zpshwnpqfo1.png">
+
+<h2>List Groups</h2>
+<h5>This is like most featured used because of utility</h5>
+In a ul .list-group
+an in li or a .list-group-item 
+and ... magic is done ;)
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_132_zpsphr4ignn.png">
+
+<h2>Media object</h2>
+	A class to use to comments or align an image with a text
+	use a div .media
+	inside
+	use div .media-left to put an image
+	use div .media-body to put text
+	
+	if you want to nest put a new div .media insise .media-body
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_134_zpsnc18wxrp.png">
+
+<h2>Panels</h2>
+
+Panels are so good in every project you can use them :)
+<br>
+You can use .panel.panel-default and inside of it .panel-heading .panel-body .panel-footer
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_135_zpsukl1g4hy.png">
+
+<h2>Modals</h2>
+<h6>Modals are pop ups</h6>
+modal.fade>.modal-dialog>.modal-content
+then
+.modal-content>.modal-header
+.modal-content>.modal-body
+.modal-content>.modal-footer
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_136_zpskhsmz3my.png">
+
+
+<h2>ScrollSpy</h2>
+Use data-spy="scroll" data-target="#iden" on body tag where iden is the ul and done :)
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_137_zpslabokozz.png">
+
+<h2>Collapse</h2>
+A common feature
+This are just a .panel-group with .panel.panel-default childs 
+and every .panel-default we separate his .panel-body
+<br>
+we wrap that .panel-body in a class="id="collapse1" class="panel-collapse collapse in"
+for making it collapsible
+and in the .panel-title we use href="#collapse1" data-toggle="collapse" data-parent="#acordeon" 
+to make point to the .panel-body and display/non-display it
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_138_zps5tcn9m7r.png">
+
+
+<h2>Slideshow</h2>
+<h3>Slideshows are just magic</h3>
+For carousels we have a lot of classes but the main classes are 
+.carousel slide
+<br>
+.carousel-indicators , .carousel carousel-inner , .carousel-control.left
+.item and .carousel-caption
+
 
