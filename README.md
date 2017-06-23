@@ -230,6 +230,59 @@ But we can make those navs stacked, or justified, and also they can have a dropd
 <h6>Nav tabs and Nav Pills are just simplified versions of Navbars</h6>
 <img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_118_zpsqxsnh06y.png">
 	
+<h2>Navbar!!!!!!!!!!!!</h2>
+<h6>This is like the most beautiful part of bootstrap c:</h6>
 
+
+	Essential idea about navabars is that a navbar is a unordered list
+	so
+	Make an ul with anchors as li
+	Add to ul the class .nav navbar-nav
+	Wrap that ul in a nav with class navbar navbar-default
+	make a div with class navbar-header
+	inside of div.navbar-header put toggle button and brand name
+	Wrap ul in a .collapse navbar-collapse and add id="{id on toggle button}"
+
+	and..
+	if you need a form you need to tell that will be inline so wrap that form in .navbar-form
+	if you need a button put .navbar-btn
+	if you need text put .navbar-text
+
+	If you need aligments put navbar-left or .navbar-right in a separate ul
+
+	You can use .navbar-fixed-top or navbar-static-top,
+	but first make content of the nav inside a container or container-fluid
+
+	:D
+And our navbar would look like this:
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_121_zpsgbyhih97.png">
+
+<h2>Breadcrumbs</h2>
+<h4>It is curious that in breadcrumbs we put ordered list [ol] instead unordered list {ul}</h4>
+And breadcrums are just ordered list with .breadcrumb :smiley:
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_122_zpswjbr15z2.png">
+
+
+<h2>Pagination</h2>
+<h6>Guess What, Pagination are just ul with .pagination with different sizes</h6>
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_123_zpswxpbsigy.png">
+
+<h2>Labels</h2>
+If we need some kind of flag to our elements we have <strong>label</strong> tag
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccin_124_zpsdrujnpne.png"> 
+
+
+<h2>Badges</h2>
+For notifications features we have badges
+<h6>it is like an icon or a label we put a span </h6>
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_125_zps7tzndneq.png"> 
+
+<h2>Jumbotron</h2>
+<h5>Jumbotron is Like a giant box</h5>
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_126_zpslfycc1c7.png">
+
+<h2>An iteresting class .page-header to use with headers</h2>
+<h6>It kinds remember me my first CV Thats why I love it!! :D</h6>
+<img src="http://i1093.photobucket.com/albums/i422/Psycriss__/Seleccioacuten_127_zpselvown5o.png">
 
 
