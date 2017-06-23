@@ -9,3 +9,5 @@ ul.nav.nav-tabs
 .container>header>nav
 h$*6
 h$*6>{Header $}
+.div{Esta es una alerta}*4
+div{Esta es una alerta}*4
